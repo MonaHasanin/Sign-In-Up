@@ -9,7 +9,7 @@ if (username){
     userInfo.style.display = "flex";
     userDom.innerHTML = username;
 }
-logoutBtn.Eventlistner('click', function(){
+logoutBtn.addEventListener('click', function(){
     localStorage.clear();
     setTimeout(() => {
         window.location = "register.html"
